@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=raleway:400,700');
+
+body{
+    background-color: #2A3136;
+    color: #88949D;
+    font-family: 'Raleway';
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #00E4AC;
+}
+.cta-btn{
+    color: #00E4AC;
+    border: 1px solid #00E4AC;
+    padding: 5px 5px;
+    float: right;
+    border-radius: 5px;
+}
+.cta-btn:hover{
+    background: #00E4AC;
+    color: #2A3136;
+}

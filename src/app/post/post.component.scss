@@ -1,0 +1,27 @@
+label {
+  color: #00e4ac;
+  font-size: 1.5em;
+}
+input[type="text"],
+textarea {
+  background: none;
+  border: 1px solid #617879;
+  padding: 22px 15px;
+  color: #88749d;
+}
+textarea {
+  min-height: 70px;
+}
+.filled{
+    background: #00e4ac;
+    color: #2a3136;
+    float: left;
+    border-radius: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 12px 22px;
+    margin-top: 40px;
+}
+

@@ -1,0 +1,40 @@
+.post-container {
+  background-color: #363e45;
+  padding: 23px;
+  margin-bottom: 30px;
+  height: 100%;
+  position: relative;
+}
+.post-title {
+  font-size: 1.4rem;
+  display: block;
+  color: #fff;
+}
+.post-container p {
+  margin: 20px 0 25px 0;
+}
+.posts {
+  margin-bottom: 30px;
+}
+.btn2 {
+  float: none;
+  position: relative;
+//   bottom: 23px;
+}
+ .external svg{
+    position: relative;
+    width: 50px;
+    max-width: none;
+    left: 24px;
+ }
+ .cta-btn, .cta-btn:visited{
+    color: #00E4AC;
+    border: 1px solid #00E4AC;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.cta-btn:hover{
+    background: #00E4AC;
+    color: #2A3136;
+}
+ 

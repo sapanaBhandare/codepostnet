@@ -1,0 +1,46 @@
+<div class="row">
+  <h1>Post Tutorial</h1>
+</div>
+
+<form [formGroup]="postForm" (ngSubmit)="addPost(postForm.value)">
+  <div class="row">
+    <div class="columns small-12 medium-6">
+      <label
+        >Title of Tutorial
+        <input type="text" name="title" formControlName="title" />
+      </label>
+    </div>
+
+    <div class="columns small-12 medium-6">
+      <label
+        >Url
+        <input type="text" name="url" formControlName="url" />
+      </label>
+    </div>
+  </div>
+  <div class="row columns">
+    <label
+      >Description
+      <input type="text" name="description" formControlName="description" />
+    </label>
+  </div>
+
+  <div class="row columns">
+    <label
+      >Detailed Description
+      <textarea
+        type="text"
+        name="detailed_description"
+        formControlName="detailed_description"
+      >
+      </textarea>
+    </label>
+
+    <input
+      type="submit"
+      class="cta-btn filled"
+      value="Post Tutorial"
+      [disabled]="!postForm.valid"
+    />
+  </div>
+</form>

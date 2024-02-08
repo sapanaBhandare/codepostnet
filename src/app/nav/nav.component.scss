@@ -1,0 +1,18 @@
+.header{
+    padding: 30px 0;
+    margin-bottom: 40px;
+}
+#logo{
+    width: 200px;
+}
+.cta-btn, .cta-btn:visited{
+    color: #00E4AC;
+    border: 1px solid #00E4AC;
+    padding: 5px 5px;
+    float: right;
+    border-radius: 5px;
+}
+.cta-btn:hover{
+    background: #00E4AC;
+    color: #2A3136;
+}
